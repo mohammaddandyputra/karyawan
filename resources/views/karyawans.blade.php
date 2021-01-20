@@ -25,7 +25,7 @@
         </div>
       </nav>
     <div class="container mt-5">
-        <h1>Karyawan Listtttttttttttttttt</h1>
+        <h1>Karyawan Listttttt</h1>
         <table class="table">
             <thead>
                 <tr>
