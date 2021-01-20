@@ -21,7 +21,7 @@ class CreateKaryawansTable extends Migration
             $table->string('tempat_lahir');
             $table->date('tanggal_lahir');
             $table->string('gender');
-            $table->string('keahlian');
+            $table->json('keahlian');
             $table->timestamps();
         });
     }
