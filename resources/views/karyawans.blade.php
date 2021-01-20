@@ -52,7 +52,6 @@
                   <td>{{$karyawan->tempat_lahir}}</td>
                   <td>{{$karyawan->tanggal_lahir}}</td>
                   <td>{{$karyawan->gender}}</td>
-                  <td>{{$karyawan->keahlian}}</td>
                   <td>
                     <a href="/edit/{{$karyawan->nik}}" class="btn btn-success">Edit</a>
                     <form action="/delete/{{$karyawan->nik}}" method="POST">
